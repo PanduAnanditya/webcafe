@@ -1,0 +1,12 @@
+/* Mengatur agar elemen dalam .col-lg-2 .col-12 berjejer */
+.col-lg-2.col-12 {
+  display: flex;
+  flex-direction: row; /* Atur agar elemen berjejer horizontal */
+  gap: 10px; /* Memberikan jarak antar tombol, opsional */
+  justify-content: space-around; /* Meratakan tombol secara horizontal */
+}
+
+/* Menambahkan sedikit padding atau margin ke tombol jika diperlukan */
+.col-lg-2.col-12 .get-quote {
+  margin: 0 5px; /* Mengatur margin agar ada ruang antar elemen */
+}
